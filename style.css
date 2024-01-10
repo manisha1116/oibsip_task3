@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+     background:url("thermoo.jpg");
+    background-size: cover;
+    background-position:fixed ; 
+    background-repeat: no-repeat;
+    height:600px;
+    
+}
+.heading{
+    color:rgba(196, 199, 9, 0.912);
+font-size:2.05rem;
+font-weight:800;
+}
+
+.container{
+    text-align:center;
+    margin-top:180px;
+    margin-left:820px;
+    border:2px solid black;
+    border-radius:8px;
+    height:325px;
+    width:450px;
+    padding-top:20px;
+    box-shadow:-8px 8px 4px rgb(69, 67, 80)
+
+}
+#tempCon{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    margin-top:40px;
+    flex-wrap:wrap;
+}
+#tempCon input,select{
+    height:37px;
+    border:3px solid black;
+    border-radius:5px;
+    text-align:center;
+    background-color: rgb(249, 250, 252);
+    ;
+}
+#select{
+    width: 130px;
+}
+#select:hover{
+    cursor:pointer;
+    background-color:#fff ;
+}
+#number:hover{
+    background-color:#fff ;
+}
+
+
+
+button{
+    border:2px solid black;
+    border-radius:9px;
+    margin-top:69px;
+    margin-bottom:45px;
+     width:448px;
+     height:38px;
+     font-size:15px;
+     background-color: rgb(249, 250, 252);
+
+}
+button:hover{
+    cursor:pointer;
+    background-color: white; 
+}
+
+#solution{
+    font-size:1.5rem;
+    color:rgb(183, 183, 11)
+}
+
+
+
+
+

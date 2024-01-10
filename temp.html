@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempreture Convertor Website</title>
+    <link rel=stylesheet href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Poppins&family=Roboto:wght@400;500;700&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <h4 class="heading">Tempreture Convertor</h4>
+        <div id="tempCon">
+            <form>
+                <input type="number" name="number" id="number" placeholder="enter the number"required>
+                <label for="select">Type:</label>
+                <select name="select" id="select" required>
+                    <option value=""></option>
+                    <option value="cel">Celsius (&#8451;)</option>
+                    <option value="fah">Fahrenheit (&#8457;)</option>
+                </select>
+                 <button id="submit">Convert</button>
+
+                <span id="solution"></span>
+            </form>
+           
+        </div>
+
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>
